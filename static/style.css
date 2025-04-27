@@ -1,0 +1,124 @@
+/* Basic reset for some browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Keeping slightly softer background */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading Styles */
+h1, .heading {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Form Styling */
+form {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group and Labels */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label, .label {
+    display: block;
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Input and Select Fields */
+input, select, button,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Button Styling */
+button, .submit-btn {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+button:hover, .submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Audio Button Styling */
+.audio-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.audio-btn:hover {
+    background-color: #218838;
+}
+
+/* Output Section */
+.output {
+    margin-top: 30px;
+}
+
+/* Secondary Headings */
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Audio Styling */
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
